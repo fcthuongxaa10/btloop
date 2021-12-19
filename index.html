@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+        <div class="w-100">
+            <form>
+                <div class="mb-3 d-flex">
+                    <label for="exampleInputEmail1" class="form-label">Các số dương chẵn nhỏ hơn 100</label>
+                    <p id="txtInt" class="alert alert-success"></p>
+                    <label for="exampleInputEmail1" class="form-label">Các số dương lẻ nhỏ hơn 100</label>
+                    <p id="txtInt1" class="alert alert-success"></p>
+                </div>
+            </form>
+            <form>
+                <div class="mb-3 d-flex">
+                    <label for="exampleInputEmail1" class="form-label">Các số dương chẵn nhỏ hơn 100</label>
+                    <p id="txtInt3" class="alert alert-success"></p>
+                    <label for="exampleInputEmail1" class="form-label">Các số dương lẻ nhỏ hơn 100</label>
+                    <p id="txtInt4" class="alert alert-success"></p>
+                </div>
+            </form>
+        </div>
+        <div class="w-100">
+            <form>
+                <div class="mb-3 d-flex">
+                    <p id="txtInt5" class="alert alert-success"></p>
+                    <p id="txtInt6" class="alert alert-success"></p>
+                </div>
+            </form>
+        </div>
+        <div class="w-50">
+            <form>
+                <div class="mb-3 d-flex">
+                    <p id="txtInt7" class="alert alert-success"></p>
+                </div>
+            </form>
+        </div>
+        <div class="w-50">
+            <form>
+                <div class="mb-3">
+                    <input placeholder="Nhập số x" type="number" class="form-control" id="sox">
+                    <input placeholder="Nhập số n" type="number" class="form-control" id="son">
+                </div>
+                <button onclick="tinhTong()" id="btnSum" type="button" class="btn btn-primary">Total</button>
+            </form>
+            <p id="txtSum" class="alert alert-success"></p>
+        </div>
+        <div class="w-50">
+            <form>
+                <div class="mb-3">
+                    <input placeholder="Nhập số n" type="number" class="form-control" id="giaithua">
+                </div>
+                <button onclick="giaiThua()" id="btnSum" type="button" class="btn btn-primary">Giai Thừa</button>
+            </form>
+            <p id="txtGiaiThua" class="alert alert-success"></p>
+        </div>
+        <div class="w-50">
+            <form>
+                <button onclick="taoThe()" id="btnSum" type="button" class="btn btn-primary">Tạo Thẻ</button>
+                <p id="txtDiv1" class="alert alert-success"></p>
+                <p id="txtDiv2" class="alert alert-success"></p>
+                <p id="txtDiv3" class="alert alert-success"></p>
+                <p id="txtDiv4" class="alert alert-success"></p>
+                <p id="txtDiv5" class="alert alert-success"></p>
+                <p id="txtDiv6" class="alert alert-success"></p>
+                <p id="txtDiv7" class="alert alert-success"></p>
+                <p id="txtDiv8" class="alert alert-success"></p>
+                <p id="txtDiv9" class="alert alert-success"></p>
+                <p id="txtDiv10" class="alert alert-success"></p>
+            </form>
+        </div>
+    </div>
+    <script src="js/bai1.js"></script>
+    <script src="js/bai2.js"></script>
+    <script src="js/bai3.js"></script>
+    <script src="js/bai4.js"></script>
+    <script src="js/bai5.js"></script>
+    <script src="js/bai6.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+
+</html>
